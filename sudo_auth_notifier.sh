@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Slack Webhook URL
-WEBHOOK_URL="https://hooks.slack.com/services/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"
+WEBHOOK_URL="https://hooks.slack.com/services/<Use Slack Webhook Url>"
 
 # Gather user details
 USER=$(whoami)
