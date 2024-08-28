@@ -19,8 +19,8 @@ This Bash script monitors successful `sudo` authentications on a Linux system an
 1. Clone the repository or download the script file:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone git@github.com:rMi99/slack-auth-ubuntu-notifier.git
+    cd slack-auth-ubuntu-notifier
     ```
 
 2. Update the `WEBHOOK_URL` variable in the script with your Slack webhook URL.
@@ -70,5 +70,5 @@ This Bash script monitors successful `sudo` authentications on a Linux system an
 ## Example Output
 
 ```markdown
-User `john` on `my-server` (192.168.1.10) successfully executed the following sudo commands:
+User `rmi` on `my-server` (192.168.1.10) successfully executed the following sudo commands:
 Aug 28 10:00:00 my-server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt-get update
