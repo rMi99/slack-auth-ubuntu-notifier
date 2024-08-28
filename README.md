@@ -70,5 +70,5 @@ This Bash script monitors successful `sudo` authentications on a Linux system an
 ## Example Output
 
 ```markdown
-User `rmi` on `my-server` (192.168.1.10) successfully executed the following sudo commands:
+User `rmi` on `server-ip` (192.168.1.10) successfully executed the following sudo commands:
 Aug 28 10:00:00 my-server sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/usr/bin/apt-get update
