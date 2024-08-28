@@ -1,4 +1,4 @@
-# Sudo Authentication Notifier
+# Slack Authentication Notifier for linux server
 
 This Bash script monitors successful `sudo` authentications on a Linux system and sends a notification to a specified Slack channel. The notification includes the user details and the `sudo` commands executed.
 
